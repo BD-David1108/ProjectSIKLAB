@@ -177,58 +177,58 @@ current implementation:
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
-    DEVELOPMENT MILESTONES
+DEVELOPMENT MILESTONES
 
  Milestone 001 — Local LLM Deployment
 
-Qwen2.5:1.5B was successfully deployed on the Raspberry Pi 4 using Ollama.
+  Qwen2.5:1.5B was successfully deployed on the Raspberry Pi 4 using Ollama.
 
-Significance:
-Established that SIKLAB could perform natural-language inference locally
-without depending on a cloud LLM API.
+  Significance:
+  Established that SIKLAB could perform natural-language inference locally
+  without depending on a cloud LLM API.
 
 ---
 
  Milestone 002 — Offline Speech Recognition
 
-Whisper.cpp with the `tiny.en` model was integrated into the speech pipeline.
-
-Significance:
-Enabled local conversion of microphone input into text.
+  Whisper.cpp with the `tiny.en` model was integrated into the speech pipeline.
+  
+  Significance:
+  Enabled local conversion of microphone input into text.
 
 ---
 
  Milestone 003 — Offline Speech Synthesis
 
-Piper with the `en_US-amy-medium` voice was integrated.
-
-Significance:
-Completed the initial local conversational pipeline:
-
-Human Speech -> Whisper.cpp -> Qwen2.5 -> Piper -> Robot Speech
+  Piper with the `en_US-amy-medium` voice was integrated.
+  
+  Significance:
+  Completed the initial local conversational pipeline:
+  
+  Human Speech -> Whisper.cpp -> Qwen2.5 -> Piper -> Robot Speech
   
 ---
 
  Milestone 004 — Computer Vision Integration
 
-YOLO26n was tested on Raspberry Pi 4 using camera input from the Raspberry Pi
-Camera V2.
-
-Initial benchmark:
-
-- Input size: 320 × 320
-- Inference time: ~307 ms
-
-Significance:
-Established the first visual perception capability for SIKLAB.
+  YOLO26n was tested on Raspberry Pi 4 using camera input from the Raspberry Pi
+  Camera V2.
+  
+  Initial benchmark:
+  
+  - Input size: 320 × 320
+  - Inference time: ~307 ms
+  
+  Significance:
+  Established the first visual perception capability for SIKLAB.
 
 ---
 
  Milestone 005 — Milana Integration
 
-The separate speech, language-model, and perception components were integrated
-under `milana.py`.
-
-Significance:
-Milana evolved from individual AI components into an early embodied AI
-orchestration layer.
+  The separate speech, language-model, and perception components were integrated
+  under `milana.py`.
+  
+  Significance:
+  Milana evolved from individual AI components into an early embodied AI
+  orchestration layer.
